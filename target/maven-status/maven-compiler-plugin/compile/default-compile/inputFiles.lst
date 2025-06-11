@@ -1,0 +1,9 @@
+/home/ubuntu/news-trading-app/authentication-service/src/main/java/com/newstradingapp/authenticationservice/dto/LoginRequest.java
+/home/ubuntu/news-trading-app/authentication-service/src/main/java/com/newstradingapp/authenticationservice/controller/AuthController.java
+/home/ubuntu/news-trading-app/authentication-service/src/main/java/com/newstradingapp/authenticationservice/repository/UserRepository.java
+/home/ubuntu/news-trading-app/authentication-service/src/main/java/com/newstradingapp/authenticationservice/config/SecurityConfig.java
+/home/ubuntu/news-trading-app/authentication-service/src/main/java/com/newstradingapp/authenticationservice/AuthenticationServiceApplication.java
+/home/ubuntu/news-trading-app/authentication-service/src/main/java/com/newstradingapp/authenticationservice/controller/HomeController.java
+/home/ubuntu/news-trading-app/authentication-service/src/main/java/com/newstradingapp/authenticationservice/model/User.java
+/home/ubuntu/news-trading-app/authentication-service/src/main/java/com/newstradingapp/authenticationservice/service/AuthService.java
+/home/ubuntu/news-trading-app/authentication-service/src/main/java/com/newstradingapp/authenticationservice/dto/RegisterRequest.java

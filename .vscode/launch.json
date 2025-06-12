@@ -2,13 +2,24 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Spring Boot-AuthenticationServiceApplication<authentication-service>",
+            "name": "Debug (Launch)",
             "request": "launch",
-            "cwd": "${workspaceFolder}",
             "mainClass": "com.newstradingapp.authenticationservice.AuthenticationServiceApplication",
             "projectName": "authentication-service",
+            "env": {
+                "SPRING_PROFILES_ACTIVE": "local"
+            },
             "args": "",
-            "envFile": "${workspaceFolder}/.env"
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": "-Dspring.output.ansi.enabled=always -Dspring.jmx.enabled=true",
+            "console": "internalConsole"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Remote)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 5005
         }
     ]
 }
